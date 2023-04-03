@@ -1,0 +1,33 @@
+:root {
+  --color1: #2d3b16;
+  --color2: #908869;
+  --color3: #cac0be;
+  --color4: #988c7d;
+  --color5: #a6a68e;
+}
+body {
+  background-image: linear-gradient(to right, var(--color2), var(--color4));
+  margin: 0;
+}
+.header {
+  background-color: var(--color1);
+  color: var(--color3);
+  text-align: left;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.content {
+  height: 35vw;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.footer {
+  background-color: var(--color1);
+  color: var(--color3);
+  padding: 15px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
