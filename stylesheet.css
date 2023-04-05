@@ -1,20 +1,20 @@
 :root {
-  --color1: #2d3b16;
-  --color2: #908869;
-  --color3: #cac0be;
-  --color4: #988c7d;
-  --color5: #a6a68e;
+  --color1: #2c3e50;
+  --color2: #34495e;
+  --color3: #7f8c8d;
+  --color4: #95a5a6;
+  --color5: #ecf0f1;
 }
 body {
-  background-image: linear-gradient(to right, var(--color2), var(--color4));
+  background-image: linear-gradient(to right, var(--color4), var(--color3));
   margin: 0;
 }
 .header {
   background-color: var(--color1);
-  color: var(--color3);
-  text-align: left;
+  color: var(--color4);
   padding: 20px;
-  font-size: 36px;
+}
+.header h1{
   font-weight: bold;
 }
 .content {
