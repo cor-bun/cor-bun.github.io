@@ -10,10 +10,12 @@ html {
   font-family: sans-serif;
 }
 body {
+  position: relative;
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 900px;
 }
 .container {
   margin-left: 200px;
@@ -30,6 +32,7 @@ body {
   padding-bottom: 5px;
   margin-bottom: 30px;
   border-bottom-width: 2px;
+  min-width: 1200px;
 }
 .header h1{
   font-weight: bold;
